@@ -1,19 +1,21 @@
 <template>
   <div id="app">
+    <MenuPopout />
     <TitleSection id="title" class="section"/>
-    <TitleSection id="title2" class="section"/>
-    <TitleSection id="title3" class="section"/>
-    <TitleSection id="title4" class="section"/>
-    <TitleSection id="title5" class="section"/>
+    <TitleSection id="title" class="section"/>
+    <TitleSection id="title" class="section"/>
+    <TitleSection id="title" class="section"/>
   </div>
 </template>
 
 <script>
 import TitleSection from './sections/TitleSection.vue'
 
+import MenuPopout from './components/MenuPopout.vue'
+
 export default {
   name: 'App',
-  components: { TitleSection }
+  components: { TitleSection, MenuPopout }
 }
 </script>
 

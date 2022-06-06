@@ -10,7 +10,7 @@
     <aside class="hero-image">
       <img
         ref="img"
-        src="../assets/my-photo.jpg"
+        src="../assets/my-photo-square.jpg"
         alt="Picture of Ryan"
       />
     </aside>
