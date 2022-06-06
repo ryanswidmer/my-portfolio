@@ -4,7 +4,6 @@
     <TitleSection id="title" class="section"/>
     <TitleSection id="title" class="section"/>
     <TitleSection id="title" class="section"/>
-    <TitleSection id="title" class="section"/>
   </div>
 </template>
 
